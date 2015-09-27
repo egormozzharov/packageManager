@@ -1,0 +1,247 @@
+﻿[START LOG] 
+2015-09-24 10:01:01,422 [9] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:01:01,469 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:01:01,485 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:01:16,548 [9] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:01:16,580 [9] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:01:22,642 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+[START LOG] 
+2015-09-24 10:03:33,803 [9] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:03:33,850 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:03:33,850 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:03:37,506 [9] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:03:37,537 [9] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:03:39,709 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 10:03:39,772 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 10:03:47,444 [9] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 10:03:47,585 [9] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 10:03:51,960 [9] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 10:03:52,054 [9] INFO  TestConsolePackageManager.Program - Checking package finished
+[START LOG] 
+2015-09-24 10:34:35,103 [10] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:34:35,150 [10] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:34:35,150 [10] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:34:39,212 [10] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:34:39,228 [10] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:35:26,168 [10] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+[START LOG] 
+2015-09-24 10:36:14,366 [8] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:36:14,412 [8] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:36:14,412 [8] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:36:15,662 [8] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:36:15,678 [8] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:36:15,678 [8] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 10:36:15,709 [8] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 10:36:15,709 [8] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 10:36:15,741 [8] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 10:36:15,741 [8] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 10:36:15,772 [8] INFO  TestConsolePackageManager.Program - Checking package finished
+[START LOG] 
+2015-09-24 10:38:46,200 [10] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:38:46,247 [10] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:38:46,247 [10] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:38:50,794 [10] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:38:50,794 [10] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:38:53,795 [10] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 10:38:53,810 [10] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 10:39:03,561 [10] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 10:39:03,592 [10] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 10:39:06,608 [10] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 10:39:06,670 [10] INFO  TestConsolePackageManager.Program - Checking package finished
+[START LOG] 
+2015-09-24 10:43:15,227 [1] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:43:15,287 [1] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:43:15,292 [1] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:43:15,309 [1] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:43:15,315 [1] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:43:15,322 [1] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 10:43:15,343 [1] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 10:43:15,348 [1] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 10:43:15,359 [1] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 10:43:15,364 [1] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 10:43:15,370 [1] INFO  TestConsolePackageManager.Program - Checking package finished
+[START LOG] 
+2015-09-24 10:45:07,322 [9] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:45:07,368 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:45:07,374 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:45:26,236 [9] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:45:26,242 [9] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:45:32,990 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 10:45:33,012 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 10:45:34,483 [9] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 10:45:34,513 [9] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 10:45:38,816 [9] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 10:45:38,827 [9] INFO  TestConsolePackageManager.Program - Checking package finished
+[START LOG] 
+2015-09-24 10:47:30,114 [9] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:47:30,160 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:47:30,166 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:47:33,123 [9] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:47:33,128 [9] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:47:33,136 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 10:47:33,158 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 10:47:33,163 [9] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 10:47:33,181 [9] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 10:47:33,186 [9] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 10:47:33,193 [9] INFO  TestConsolePackageManager.Program - Checking package finished
+[START LOG] 
+2015-09-24 10:52:11,346 [10] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:52:11,430 [10] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:52:11,437 [10] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:52:13,694 [10] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:52:13,701 [10] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:52:13,709 [10] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 10:52:13,745 [10] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 10:52:13,750 [10] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 10:52:13,988 [10] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 10:52:13,998 [10] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 10:52:14,035 [10] INFO  TestConsolePackageManager.Program - Checking package finished
+2015-09-24 10:52:14,251 [10] INFO  TestConsolePackageManager.Program - BackupDatabase started
+2015-09-24 10:52:16,529 [10] INFO  TestConsolePackageManager.Program - BackupDatabase finished
+2015-09-24 10:52:16,541 [10] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-24 10:52:17,298 [10] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-24 10:52:17,635 [10] INFO  TestConsolePackageManager.Program - XmlPeek started
+2015-09-24 10:52:21,554 [10] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 10:52:21,562 [10] INFO  TestConsolePackageManager.Program - XmlPeek finished
+2015-09-24 10:52:21,573 [10] INFO  TestConsolePackageManager.Program - XmlPoke started
+[START LOG] 
+2015-09-24 10:53:17,443 [9] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 10:53:17,494 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 10:53:17,506 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 10:53:20,131 [9] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 10:53:20,163 [9] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 10:53:20,163 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 10:53:20,194 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 10:53:20,209 [9] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 10:53:20,256 [9] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 10:53:20,272 [9] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 10:53:20,288 [9] INFO  TestConsolePackageManager.Program - Checking package finished
+2015-09-24 10:53:20,303 [9] INFO  TestConsolePackageManager.Program - BackupDatabase started
+2015-09-24 10:53:21,475 [9] INFO  TestConsolePackageManager.Program - BackupDatabase finished
+2015-09-24 10:53:21,491 [9] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-24 10:53:21,600 [9] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-24 10:53:21,835 [9] INFO  TestConsolePackageManager.Program - XmlPeek started
+2015-09-24 10:53:21,913 [9] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 10:53:21,928 [9] INFO  TestConsolePackageManager.Program - XmlPeek finished
+2015-09-24 10:53:21,928 [9] INFO  TestConsolePackageManager.Program - XmlPoke started
+[START LOG] 
+2015-09-24 11:55:08,685 [1] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 11:55:08,748 [1] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 11:55:08,763 [1] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 11:55:08,779 [1] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 11:55:08,794 [1] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 11:55:08,794 [1] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 11:55:08,826 [1] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 11:55:08,841 [1] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 11:55:08,919 [1] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 11:55:08,919 [1] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 11:55:08,935 [1] INFO  TestConsolePackageManager.Program - Checking package finished
+2015-09-24 11:55:08,951 [1] INFO  TestConsolePackageManager.Program - BackupDatabase started
+2015-09-24 11:55:10,091 [1] INFO  TestConsolePackageManager.Program - BackupDatabase finished
+2015-09-24 11:55:10,091 [1] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-24 11:55:10,185 [1] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-24 11:55:10,451 [1] INFO  TestConsolePackageManager.Program - XmlPeek started
+2015-09-24 11:55:10,498 [1] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:55:10,498 [1] INFO  TestConsolePackageManager.Program - XmlPeek finished
+2015-09-24 11:55:10,513 [1] INFO  TestConsolePackageManager.Program - XmlPoke started
+2015-09-24 11:55:10,529 [1] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:55:10,544 [1] INFO  TestConsolePackageManager.Program - XmlPoke finished
+2015-09-24 11:55:10,560 [1] INFO  TestConsolePackageManager.Program - Installation module (DB) started
+2015-09-24 11:55:10,560 [1] INFO  TestConsolePackageManager.Program - DeleteFile started
+2015-09-24 11:55:10,576 [1] INFO  TestConsolePackageManager.Program - DeleteFile finished
+2015-09-24 11:55:10,591 [1] INFO  TestConsolePackageManager.Program - CopyingFile started
+2015-09-24 11:55:10,638 [1] INFO  TestConsolePackageManager.Program - CopyingFile finished
+2015-09-24 11:55:10,654 [1] INFO  TestConsolePackageManager.Program - Program execution started
+[START LOG] 
+2015-09-24 11:57:14,988 [1] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 11:57:15,051 [1] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 11:57:15,067 [1] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 11:57:15,082 [1] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 11:57:15,098 [1] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 11:57:15,113 [1] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 11:57:15,145 [1] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 11:57:15,145 [1] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 11:57:15,192 [1] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 11:57:15,207 [1] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 11:57:15,223 [1] INFO  TestConsolePackageManager.Program - Checking package finished
+2015-09-24 11:57:15,238 [1] INFO  TestConsolePackageManager.Program - BackupDatabase started
+2015-09-24 11:57:15,598 [1] INFO  TestConsolePackageManager.Program - BackupDatabase finished
+2015-09-24 11:57:15,613 [1] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-24 11:57:15,723 [1] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-24 11:57:15,973 [1] INFO  TestConsolePackageManager.Program - XmlPeek started
+2015-09-24 11:57:16,004 [1] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:57:16,004 [1] INFO  TestConsolePackageManager.Program - XmlPeek finished
+2015-09-24 11:57:16,020 [1] INFO  TestConsolePackageManager.Program - XmlPoke started
+2015-09-24 11:57:16,051 [1] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:57:16,051 [1] INFO  TestConsolePackageManager.Program - XmlPoke finished
+2015-09-24 11:57:16,067 [1] INFO  TestConsolePackageManager.Program - Installation module (DB) started
+2015-09-24 11:57:16,082 [1] INFO  TestConsolePackageManager.Program - DeleteFile started
+2015-09-24 11:57:16,082 [1] INFO  TestConsolePackageManager.Program - DeleteFile finished
+2015-09-24 11:57:16,098 [1] INFO  TestConsolePackageManager.Program - CopyingFile started
+2015-09-24 11:57:16,114 [1] INFO  TestConsolePackageManager.Program - CopyingFile finished
+2015-09-24 11:57:16,129 [1] INFO  TestConsolePackageManager.Program - Program execution started
+[START LOG] 
+2015-09-24 11:57:49,725 [9] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 11:57:49,787 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 11:57:49,787 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 11:57:52,475 [9] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 11:57:52,490 [9] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 11:57:52,506 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 11:57:52,537 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 11:57:52,553 [9] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 11:57:52,600 [9] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 11:57:52,600 [9] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 11:57:52,631 [9] INFO  TestConsolePackageManager.Program - Checking package finished
+2015-09-24 11:57:52,647 [9] INFO  TestConsolePackageManager.Program - BackupDatabase started
+2015-09-24 11:57:53,022 [9] INFO  TestConsolePackageManager.Program - BackupDatabase finished
+2015-09-24 11:57:53,037 [9] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-24 11:57:53,131 [9] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-24 11:57:53,365 [9] INFO  TestConsolePackageManager.Program - XmlPeek started
+2015-09-24 11:57:53,444 [9] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:57:53,459 [9] INFO  TestConsolePackageManager.Program - XmlPeek finished
+2015-09-24 11:57:53,459 [9] INFO  TestConsolePackageManager.Program - XmlPoke started
+2015-09-24 11:57:53,537 [9] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:57:53,553 [9] INFO  TestConsolePackageManager.Program - XmlPoke finished
+2015-09-24 11:57:53,553 [9] INFO  TestConsolePackageManager.Program - Installation module (DB) started
+2015-09-24 11:57:59,147 [9] INFO  TestConsolePackageManager.Program - DeleteFile started
+2015-09-24 11:57:59,163 [9] INFO  TestConsolePackageManager.Program - DeleteFile finished
+2015-09-24 11:57:59,163 [9] INFO  TestConsolePackageManager.Program - CopyingFile started
+2015-09-24 11:57:59,194 [9] INFO  TestConsolePackageManager.Program - CopyingFile finished
+2015-09-24 11:57:59,194 [9] INFO  TestConsolePackageManager.Program - Program execution started
+[START LOG] 
+2015-09-24 11:59:13,963 [8] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-24 11:59:14,010 [8] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-24 11:59:14,026 [8] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-24 11:59:14,057 [8] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-24 11:59:14,073 [8] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-24 11:59:14,088 [8] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-24 11:59:14,120 [8] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-24 11:59:14,120 [8] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-24 11:59:14,167 [8] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-24 11:59:14,182 [8] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-24 11:59:14,198 [8] INFO  TestConsolePackageManager.Program - Checking package finished
+2015-09-24 11:59:14,213 [8] INFO  TestConsolePackageManager.Program - BackupDatabase started
+2015-09-24 11:59:15,292 [8] INFO  TestConsolePackageManager.Program - BackupDatabase finished
+2015-09-24 11:59:15,292 [8] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-24 11:59:15,385 [8] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-24 11:59:15,620 [8] INFO  TestConsolePackageManager.Program - XmlPeek started
+2015-09-24 11:59:22,796 [8] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:59:22,811 [8] INFO  TestConsolePackageManager.Program - XmlPeek finished
+2015-09-24 11:59:22,827 [8] INFO  TestConsolePackageManager.Program - XmlPoke started
+2015-09-24 11:59:27,780 [8] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:59:27,796 [8] INFO  TestConsolePackageManager.Program - XmlPoke finished
+2015-09-24 11:59:27,796 [8] INFO  TestConsolePackageManager.Program - Installation module (DB) started
+2015-09-24 11:59:27,811 [8] INFO  TestConsolePackageManager.Program - DeleteFile started
+2015-09-24 11:59:27,827 [8] INFO  TestConsolePackageManager.Program - DeleteFile finished
+2015-09-24 11:59:27,843 [8] INFO  TestConsolePackageManager.Program - CopyingFile started
+2015-09-24 11:59:27,858 [8] INFO  TestConsolePackageManager.Program - CopyingFile finished
+2015-09-24 11:59:27,874 [8] INFO  TestConsolePackageManager.Program - Program execution started
+2015-09-24 11:59:29,796 [8] INFO  TestConsolePackageManager.Program - Program execution finished
+2015-09-24 11:59:29,812 [8] INFO  TestConsolePackageManager.Program - ImportIntoDb started
+2015-09-24 11:59:29,827 [8] INFO  TestConsolePackageManager.Program - ImportIntoDb finished
+2015-09-24 11:59:29,843 [8] INFO  TestConsolePackageManager.Program - Installation module (DB) finished
+2015-09-24 11:59:29,843 [8] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-24 11:59:29,874 [8] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-24 11:59:32,624 [8] INFO  TestConsolePackageManager.Program - RestoreCodeTree started
+2015-09-24 11:59:32,874 [8] INFO  TestConsolePackageManager.Program - RestoreCodeTree finished
+2015-09-24 11:59:32,890 [8] INFO  TestConsolePackageManager.Program - Installation package finished

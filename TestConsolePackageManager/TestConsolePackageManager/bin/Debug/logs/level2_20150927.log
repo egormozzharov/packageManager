@@ -1,0 +1,14 @@
+﻿[START LOG] 
+2015-09-27 14:21:11,689 [INFO ] (1) - Installation package started
+2015-09-27 14:21:11,729 [INFO ] (1) - Total memory 1.3 MBytes
+2015-09-27 14:21:11,757 [INFO ] (1) - LoadingInitialData started
+2015-09-27 14:21:11,763 [INFO ] (1) - LoadingInitialData finished
+2015-09-27 14:21:11,809 [INFO ] (1) - CreateDirectories started
+2015-09-27 14:21:11,861 [INFO ] (1) - CreateDirectories finished
+2015-09-27 14:21:11,867 [INFO ] (1) - DownloadFromFtp started
+2015-09-27 14:21:12,669 [ERROR] (1) - System.Net.WebException: The remote server returned an error: (530) Not logged in.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at PackageManager.Implementations.DownloadPackage.DownloadFromFtp(Uri address, String fileName, String credentialUserName, String credentialPassword) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\DownloadPackage.cs:line 62
+2015-09-27 14:21:12,755 [ERROR] (1) - The remote server returned an error: (530) Not logged in.
+2015-09-27 14:21:12,762 [ERROR] (1) - PackageManager.Implementations.Commands.DownloadPackageCommand: The remote server returned an error: (530) Not logged in.

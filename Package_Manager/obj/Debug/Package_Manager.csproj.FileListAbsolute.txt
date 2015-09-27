@@ -1,0 +1,13 @@
+d:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\Package_Manager.dll
+d:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\Package_Manager.pdb
+d:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\log4net.dll
+d:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\log4net.xml
+d:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\obj\Debug\Package_Manager.dll
+d:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\obj\Debug\Package_Manager.pdb
+D:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\obj\Debug\Package_Manager.csprojResolveAssemblyReference.cache
+D:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\NativeBinaries\amd64\git2-e0902fb.dll
+D:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\NativeBinaries\amd64\git2-e0902fb.pdb
+D:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\NativeBinaries\x86\git2-e0902fb.dll
+D:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\NativeBinaries\x86\git2-e0902fb.pdb
+D:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\LibGit2Sharp.dll
+D:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Debug\LibGit2Sharp.xml

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package name="TechDoc" version="1.0" type="Optional" owner="Optional" description="Optional" copyright="Optional">
+	<dependencies>
+		<or>
+			<innovator version="11.0 SP2" />
+			<innovator version="11.0 SP3" />
+		</or>
+		<or>
+			<application condition="Exist">
+				<name value="com.aras.innovator.solution.plm" />
+				<version value="R-11-R1" dbvar="PEAppVersion" />
+				<version value="11.0 R1" path="Client\Solutions\PE\version.txt" />
+			</application>
+			<application condition="Exist">
+				<name value="com.aras.innovator.solution.plm" />
+				<version value="R-11-R1" dbvar="PEAppVersion" />
+				<version value="11.0 R1" path="Client\Solutions\PE\version.txt" />
+			</application>
+		</or>
+		<innovator version="11.0 SP3" />
+		<application condition="Exist">
+			<name value="com.aras.innovator.solution.plm" />
+			<version value="R-11-R1" dbvar="PEAppVersion" />
+			<version value="11.0 R1" path="Client\Solutions\PE\version.txt" />
+		</application>
+	</dependencies>
+
+	<property name="Innovator.Client.Dir" value="${Innovator.Dir}/Client" type="directory" label="Innovator Directory"/>
+	<property name="Client.Scripts.Dir" value="${Innovator.Client.Dir}" />
+
+	<installation>
+		<module id="DB">
+			<import dir="imports/QMS" failonerror="true" backup="false" />
+			<import dir="imports/QMS" failonerror="true" backup="false" />
+			<exec program="doSomething.bat" basedir="scripts" commandline="-arg1=’3’" workingdir="" timeout="0" output="c:\temp\ds.log" failonerror="true" />
+			<exec program="doSomething.bat" basedir="scripts" commandline="-arg1=’3’" workingdir="" timeout="0" output="c:\temp\ds.log" failonerror="true" />
+			<copy file="files/vault/bin/VaultServer.dll" todir="${Vault.Dir}/bin" failonerror="true" backup="false"/>
+			<copy file="" todir="${Vault.Dir}/bin" failonerror="true" backup="false">
+				<fileset basedir="files">
+					<include name="Client/**" />
+					<include name="Server/**" />
+					<exclude name="Server/web.config" />
+					<exclude name="Client/scripts/include/rev.inc" />
+				</fileset>
+			</copy>
+			<delete file="${Vault.Dir}/foo.aspx" failonerror="true" backup="false" />
+			<delete file="${Vault.Dir}/foo.aspx" failonerror="true" backup="false" />
+		</module>
+		<module id="DB">
+		</module>
+	</installation>
+
+	<xmlpeek file="Server\method_config.xml" xpath="/MethodConfig/ReferencedAssemblies" property="Ref.Assemblies" nodeindex="0" failonerror="true" />
+	<xmlpeek file="Server\method_config.xml" xpath="/MethodConfig/ReferencedAssemblies" property="Ref.Assemblies" nodeindex="0" failonerror="true" />
+
+	<xmlpoke file="Server\method_config.xml" xpath="/MethodConfig/ReferencedAssemblies" value="${new.ref.assms}" preservewhitespace="false" failonerror="true" backup="false" />
+	<xmlpoke file="Server\method_config.xml" xpath="/MethodConfig/ReferencedAssemblies" value="${new.ref.assms}" failonerror="true" backup="false" />
+	<xmlpoke file="test_xml.xml" xpath="/configuration/appSettings/add[@key = 'server']/@value" value="productionhost.somecompany.com" preservewhitespace="false" failonerror="true" backup="false">
+		<namespaces>
+			<namespace prefix="xsi" uri="http://www.w3.org/2001/XMLSchema-instance" />
+			<namespace prefix="xsy" uri="http://www.w3.org/2001/XMLSchema-instance" />
+		</namespaces>
+	</xmlpoke>
+</package>

@@ -1,0 +1,541 @@
+﻿[START LOG] 
+2015-09-24 10:01:01,422 [INFO ] (9) - Installation package started
+2015-09-24 10:01:01,469 [INFO ] (9) - LoadingInitialData started
+2015-09-24 10:01:01,485 [INFO ] (9) - LoadingInitialData finished
+2015-09-24 10:01:16,548 [INFO ] (9) - CreateDirectories started
+2015-09-24 10:01:16,580 [INFO ] (9) - CreateDirectories finished
+2015-09-24 10:01:22,642 [INFO ] (9) - DownloadFromFtp started
+2015-09-24 10:01:23,095 [ERROR] (9) - System.Net.WebException: The remote server returned an error: (530) Not logged in.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at PackageManager.Implementations.DownloadPackage.DownloadFromFtp(Uri address, String fileName, String credentialUserName, String credentialPassword) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\DownloadPackage.cs:line 62
+2015-09-24 10:01:23,095 [ERROR] (9) - The remote server returned an error: (530) Not logged in.
+[START LOG] 
+2015-09-24 10:03:33,803 [INFO ] (9) - Installation package started
+2015-09-24 10:03:33,850 [INFO ] (9) - LoadingInitialData started
+2015-09-24 10:03:33,850 [INFO ] (9) - LoadingInitialData finished
+2015-09-24 10:03:37,506 [INFO ] (9) - CreateDirectories started
+2015-09-24 10:03:37,537 [INFO ] (9) - CreateDirectories finished
+2015-09-24 10:03:39,709 [INFO ] (9) - DownloadFromFtp started
+2015-09-24 10:03:39,772 [INFO ] (9) - DownloadFromFtp finished
+2015-09-24 10:03:47,444 [INFO ] (9) - Decompress Zip started
+2015-09-24 10:03:47,585 [INFO ] (9) - Decompress Zip finished
+2015-09-24 10:03:51,960 [INFO ] (9) - Checking package started
+2015-09-24 10:03:52,038 [ERROR] (9) - The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+2015-09-24 10:03:52,038 [ERROR] (9) - The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+2015-09-24 10:03:52,054 [ERROR] (9) - The element 'package' has invalid child element 'fileset'. List of possible elements expected: 'xmlpeek, xmlpoke'.
+2015-09-24 10:03:52,054 [INFO ] (9) - Checking package finished
+2015-09-24 10:03:53,101 [ERROR] (9) - PackageManager.Implementations.Commands.CheckStructureCommand: The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+The element 'package' has invalid child element 'fileset'. List of possible elements expected: 'xmlpeek, xmlpoke'.
+
+[START LOG] 
+2015-09-24 10:34:35,103 [INFO ] (10) - Installation package started
+2015-09-24 10:34:35,150 [INFO ] (10) - LoadingInitialData started
+2015-09-24 10:34:35,150 [INFO ] (10) - LoadingInitialData finished
+2015-09-24 10:34:39,212 [INFO ] (10) - CreateDirectories started
+2015-09-24 10:34:39,228 [INFO ] (10) - CreateDirectories finished
+2015-09-24 10:35:26,168 [INFO ] (10) - DownloadFromFtp started
+2015-09-24 10:35:26,309 [ERROR] (10) - System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at PackageManager.Implementations.DownloadPackage.DownloadFromFtp(Uri address, String fileName, String credentialUserName, String credentialPassword) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\DownloadPackage.cs:line 62
+2015-09-24 10:35:26,324 [ERROR] (10) - The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+[START LOG] 
+2015-09-24 10:36:14,366 [INFO ] (8) - Installation package started
+2015-09-24 10:36:14,412 [INFO ] (8) - LoadingInitialData started
+2015-09-24 10:36:14,412 [INFO ] (8) - LoadingInitialData finished
+2015-09-24 10:36:15,662 [INFO ] (8) - CreateDirectories started
+2015-09-24 10:36:15,678 [INFO ] (8) - CreateDirectories finished
+2015-09-24 10:36:15,678 [INFO ] (8) - DownloadFromFtp started
+2015-09-24 10:36:15,709 [INFO ] (8) - DownloadFromFtp finished
+2015-09-24 10:36:15,709 [INFO ] (8) - Decompress Zip started
+2015-09-24 10:36:15,741 [INFO ] (8) - Decompress Zip finished
+2015-09-24 10:36:15,741 [INFO ] (8) - Checking package started
+2015-09-24 10:36:15,756 [ERROR] (8) - The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+2015-09-24 10:36:15,772 [ERROR] (8) - The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+2015-09-24 10:36:15,772 [ERROR] (8) - The element 'package' has invalid child element 'fileset'. List of possible elements expected: 'xmlpeek, xmlpoke'.
+2015-09-24 10:36:15,772 [INFO ] (8) - Checking package finished
+2015-09-24 10:36:15,787 [ERROR] (8) - PackageManager.Implementations.Commands.CheckStructureCommand: The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+The element 'package' has invalid child element 'fileset'. List of possible elements expected: 'xmlpeek, xmlpoke'.
+
+[START LOG] 
+2015-09-24 10:38:46,200 [INFO ] (10) - Installation package started
+2015-09-24 10:38:46,247 [INFO ] (10) - LoadingInitialData started
+2015-09-24 10:38:46,247 [INFO ] (10) - LoadingInitialData finished
+2015-09-24 10:38:50,794 [INFO ] (10) - CreateDirectories started
+2015-09-24 10:38:50,794 [INFO ] (10) - CreateDirectories finished
+2015-09-24 10:38:53,795 [INFO ] (10) - DownloadFromFtp started
+2015-09-24 10:38:53,810 [INFO ] (10) - DownloadFromFtp finished
+2015-09-24 10:39:03,561 [INFO ] (10) - Decompress Zip started
+2015-09-24 10:39:03,592 [INFO ] (10) - Decompress Zip finished
+2015-09-24 10:39:06,608 [INFO ] (10) - Checking package started
+2015-09-24 10:39:06,639 [ERROR] (10) - The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+2015-09-24 10:39:06,655 [ERROR] (10) - The 'timeout' attribute is invalid - The value '' is invalid according to its datatype 'http://www.w3.org/2001/XMLSchema:int' - The string '' is not a valid Int32 value.
+2015-09-24 10:39:06,655 [ERROR] (10) - The element 'package' has invalid child element 'fileset'. List of possible elements expected: 'xmlpeek, xmlpoke'.
+2015-09-24 10:39:06,670 [INFO ] (10) - Checking package finished
+[START LOG] 
+2015-09-24 10:43:15,227 [INFO ] (1) - Installation package started
+2015-09-24 10:43:15,287 [INFO ] (1) - LoadingInitialData started
+2015-09-24 10:43:15,292 [INFO ] (1) - LoadingInitialData finished
+2015-09-24 10:43:15,309 [INFO ] (1) - CreateDirectories started
+2015-09-24 10:43:15,315 [INFO ] (1) - CreateDirectories finished
+2015-09-24 10:43:15,322 [INFO ] (1) - DownloadFromFtp started
+2015-09-24 10:43:15,343 [INFO ] (1) - DownloadFromFtp finished
+2015-09-24 10:43:15,348 [INFO ] (1) - Decompress Zip started
+2015-09-24 10:43:15,359 [INFO ] (1) - Decompress Zip finished
+2015-09-24 10:43:15,364 [INFO ] (1) - Checking package started
+2015-09-24 10:43:15,370 [INFO ] (1) - Checking package finished
+2015-09-24 10:43:15,375 [ERROR] (1) - PackageManager.Implementations.Commands.CheckStructureCommand: Configuration a file is missing. Package is empty.
+[START LOG] 
+2015-09-24 10:45:07,322 [INFO ] (9) - Installation package started
+2015-09-24 10:45:07,368 [INFO ] (9) - LoadingInitialData started
+2015-09-24 10:45:07,374 [INFO ] (9) - LoadingInitialData finished
+2015-09-24 10:45:26,236 [INFO ] (9) - CreateDirectories started
+2015-09-24 10:45:26,242 [INFO ] (9) - CreateDirectories finished
+2015-09-24 10:45:32,990 [INFO ] (9) - DownloadFromFtp started
+2015-09-24 10:45:33,012 [INFO ] (9) - DownloadFromFtp finished
+2015-09-24 10:45:34,483 [INFO ] (9) - Decompress Zip started
+2015-09-24 10:45:34,513 [INFO ] (9) - Decompress Zip finished
+2015-09-24 10:45:38,816 [INFO ] (9) - Checking package started
+2015-09-24 10:45:38,827 [INFO ] (9) - Checking package finished
+2015-09-24 10:47:02,339 [ERROR] (9) - PackageManager.Implementations.Commands.CheckStructureCommand: Configuration a file is missing.
+[START LOG] 
+2015-09-24 10:47:30,114 [INFO ] (9) - Installation package started
+2015-09-24 10:47:30,160 [INFO ] (9) - LoadingInitialData started
+2015-09-24 10:47:30,166 [INFO ] (9) - LoadingInitialData finished
+2015-09-24 10:47:33,123 [INFO ] (9) - CreateDirectories started
+2015-09-24 10:47:33,128 [INFO ] (9) - CreateDirectories finished
+2015-09-24 10:47:33,136 [INFO ] (9) - DownloadFromFtp started
+2015-09-24 10:47:33,158 [INFO ] (9) - DownloadFromFtp finished
+2015-09-24 10:47:33,163 [INFO ] (9) - Decompress Zip started
+2015-09-24 10:47:33,181 [INFO ] (9) - Decompress Zip finished
+2015-09-24 10:47:33,186 [INFO ] (9) - Checking package started
+2015-09-24 10:47:33,193 [INFO ] (9) - Checking package finished
+2015-09-24 10:47:33,197 [ERROR] (9) - PackageManager.Implementations.Commands.CheckStructureCommand: Configuration a file is missing.
+[START LOG] 
+2015-09-24 10:52:11,346 [INFO ] (10) - Installation package started
+2015-09-24 10:52:11,430 [INFO ] (10) - LoadingInitialData started
+2015-09-24 10:52:11,437 [INFO ] (10) - LoadingInitialData finished
+2015-09-24 10:52:13,694 [INFO ] (10) - CreateDirectories started
+2015-09-24 10:52:13,701 [INFO ] (10) - CreateDirectories finished
+2015-09-24 10:52:13,709 [INFO ] (10) - DownloadFromFtp started
+2015-09-24 10:52:13,745 [INFO ] (10) - DownloadFromFtp finished
+2015-09-24 10:52:13,750 [INFO ] (10) - Decompress Zip started
+2015-09-24 10:52:13,988 [INFO ] (10) - Decompress Zip finished
+2015-09-24 10:52:13,998 [INFO ] (10) - Checking package started
+2015-09-24 10:52:14,035 [INFO ] (10) - Checking package finished
+2015-09-24 10:52:14,251 [INFO ] (10) - BackupDatabase started
+2015-09-24 10:52:16,529 [INFO ] (10) - BackupDatabase finished
+2015-09-24 10:52:16,541 [INFO ] (10) - BackUpCodeTree started
+2015-09-24 10:52:17,298 [INFO ] (10) - BackUpCodeTree finished
+2015-09-24 10:52:17,635 [INFO ] (10) - XmlPeek started
+2015-09-24 10:52:21,518 [ERROR] (10) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPeekTask.GetNodeByXPath(String xmlPath, String xPath, XmlNamespaces xmlNamespaces, Int32 nodeIndex) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 34
+   at PackageManager.Tasks.XmlPeekTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 25
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 10:52:21,554 [WARN ] (10) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 10:52:21,562 [INFO ] (10) - XmlPeek finished
+2015-09-24 10:52:21,573 [INFO ] (10) - XmlPoke started
+2015-09-24 10:52:21,648 [ERROR] (10) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPokeTask.ModifyNodeValueByXPath(String xmlPath, String xPath, String newValue, XmlNamespaces xmlNamespaces, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 28
+   at PackageManager.Tasks.XmlPokeTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 23
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 32
+   at PackageManager.Implementations.InstallationModule.XmlPoke(PackageConfig packageConfig) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\InstallationModule.cs:line 76
+   at PackageManager.Implementations.InstallationModule.InstallModule(String configPath, IList`1 moduleInstallationTypes) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\InstallationModule.cs:line 33
+   at PackageManager.Implementations.Commands.InstallModuleCommand.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\Commands\InstallModuleCommand.cs:line 17
+   at PackageManager.PackageManagerInstall.StartDownload() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\PackageManagerInstall.cs:line 34
+[START LOG] 
+2015-09-24 10:53:17,443 [INFO ] (9) - Installation package started
+2015-09-24 10:53:17,494 [INFO ] (9) - LoadingInitialData started
+2015-09-24 10:53:17,506 [INFO ] (9) - LoadingInitialData finished
+2015-09-24 10:53:20,131 [INFO ] (9) - CreateDirectories started
+2015-09-24 10:53:20,163 [INFO ] (9) - CreateDirectories finished
+2015-09-24 10:53:20,163 [INFO ] (9) - DownloadFromFtp started
+2015-09-24 10:53:20,194 [INFO ] (9) - DownloadFromFtp finished
+2015-09-24 10:53:20,209 [INFO ] (9) - Decompress Zip started
+2015-09-24 10:53:20,256 [INFO ] (9) - Decompress Zip finished
+2015-09-24 10:53:20,272 [INFO ] (9) - Checking package started
+2015-09-24 10:53:20,288 [INFO ] (9) - Checking package finished
+2015-09-24 10:53:20,303 [INFO ] (9) - BackupDatabase started
+2015-09-24 10:53:21,475 [INFO ] (9) - BackupDatabase finished
+2015-09-24 10:53:21,491 [INFO ] (9) - BackUpCodeTree started
+2015-09-24 10:53:21,600 [INFO ] (9) - BackUpCodeTree finished
+2015-09-24 10:53:21,835 [INFO ] (9) - XmlPeek started
+2015-09-24 10:53:21,897 [ERROR] (9) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPeekTask.GetNodeByXPath(String xmlPath, String xPath, XmlNamespaces xmlNamespaces, Int32 nodeIndex) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 34
+   at PackageManager.Tasks.XmlPeekTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 25
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 10:53:21,913 [WARN ] (9) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 10:53:21,928 [INFO ] (9) - XmlPeek finished
+2015-09-24 10:53:21,928 [INFO ] (9) - XmlPoke started
+2015-09-24 10:53:22,006 [ERROR] (9) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPokeTask.ModifyNodeValueByXPath(String xmlPath, String xPath, String newValue, XmlNamespaces xmlNamespaces, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 28
+   at PackageManager.Tasks.XmlPokeTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 23
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 32
+   at PackageManager.Implementations.InstallationModule.XmlPoke(PackageConfig packageConfig) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\InstallationModule.cs:line 76
+   at PackageManager.Implementations.InstallationModule.InstallModule(String configPath, IList`1 moduleInstallationTypes) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\InstallationModule.cs:line 33
+   at PackageManager.Implementations.Commands.InstallModuleCommand.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\Commands\InstallModuleCommand.cs:line 17
+   at PackageManager.PackageManagerInstall.StartDownload() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\PackageManagerInstall.cs:line 34
+[START LOG] 
+2015-09-24 11:55:08,685 [INFO ] (1) - Installation package started
+2015-09-24 11:55:08,748 [INFO ] (1) - LoadingInitialData started
+2015-09-24 11:55:08,763 [INFO ] (1) - LoadingInitialData finished
+2015-09-24 11:55:08,779 [INFO ] (1) - CreateDirectories started
+2015-09-24 11:55:08,794 [INFO ] (1) - CreateDirectories finished
+2015-09-24 11:55:08,794 [INFO ] (1) - DownloadFromFtp started
+2015-09-24 11:55:08,826 [INFO ] (1) - DownloadFromFtp finished
+2015-09-24 11:55:08,841 [INFO ] (1) - Decompress Zip started
+2015-09-24 11:55:08,919 [INFO ] (1) - Decompress Zip finished
+2015-09-24 11:55:08,919 [INFO ] (1) - Checking package started
+2015-09-24 11:55:08,935 [INFO ] (1) - Checking package finished
+2015-09-24 11:55:08,951 [INFO ] (1) - BackupDatabase started
+2015-09-24 11:55:10,091 [INFO ] (1) - BackupDatabase finished
+2015-09-24 11:55:10,091 [INFO ] (1) - BackUpCodeTree started
+2015-09-24 11:55:10,185 [INFO ] (1) - BackUpCodeTree finished
+2015-09-24 11:55:10,451 [INFO ] (1) - XmlPeek started
+2015-09-24 11:55:10,466 [ERROR] (1) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPeekTask.GetNodeByXPath(String xmlPath, String xPath, XmlNamespaces xmlNamespaces, Int32 nodeIndex) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 34
+   at PackageManager.Tasks.XmlPeekTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 25
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 11:55:10,498 [WARN ] (1) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:55:10,498 [INFO ] (1) - XmlPeek finished
+2015-09-24 11:55:10,513 [INFO ] (1) - XmlPoke started
+2015-09-24 11:55:10,513 [ERROR] (1) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPokeTask.ModifyNodeValueByXPath(String xmlPath, String xPath, String newValue, XmlNamespaces xmlNamespaces, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 28
+   at PackageManager.Tasks.XmlPokeTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 23
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 11:55:10,529 [WARN ] (1) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:55:10,544 [INFO ] (1) - XmlPoke finished
+2015-09-24 11:55:10,560 [INFO ] (1) - Installation module (DB) started
+2015-09-24 11:55:10,560 [INFO ] (1) - DeleteFile started
+2015-09-24 11:55:10,576 [INFO ] (1) - DeleteFile finished
+2015-09-24 11:55:10,591 [INFO ] (1) - CopyingFile started
+2015-09-24 11:55:10,638 [INFO ] (1) - CopyingFile finished
+2015-09-24 11:55:10,654 [INFO ] (1) - Program execution started
+2015-09-24 11:55:10,701 [ERROR] (1) - System.ComponentModel.Win32Exception (0x80004005): The directory name is invalid
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at PackageManager.Tasks.ExecTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\ExecTask.cs:line 40
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 32
+   at PackageManager.Implementations.InstallationModule.ProgramExecution(ModuleInstallation module) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\InstallationModule.cs:line 130
+   at PackageManager.Implementations.InstallationModule.InstallModule(String configPath, IList`1 moduleInstallationTypes) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\InstallationModule.cs:line 46
+   at PackageManager.Implementations.Commands.InstallModuleCommand.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\Commands\InstallModuleCommand.cs:line 17
+   at PackageManager.PackageManagerInstall.StartDownload() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\PackageManagerInstall.cs:line 34
+[START LOG] 
+2015-09-24 11:57:14,988 [INFO ] (1) - Installation package started
+2015-09-24 11:57:15,051 [INFO ] (1) - LoadingInitialData started
+2015-09-24 11:57:15,067 [INFO ] (1) - LoadingInitialData finished
+2015-09-24 11:57:15,082 [INFO ] (1) - CreateDirectories started
+2015-09-24 11:57:15,098 [INFO ] (1) - CreateDirectories finished
+2015-09-24 11:57:15,113 [INFO ] (1) - DownloadFromFtp started
+2015-09-24 11:57:15,145 [INFO ] (1) - DownloadFromFtp finished
+2015-09-24 11:57:15,145 [INFO ] (1) - Decompress Zip started
+2015-09-24 11:57:15,192 [INFO ] (1) - Decompress Zip finished
+2015-09-24 11:57:15,207 [INFO ] (1) - Checking package started
+2015-09-24 11:57:15,223 [INFO ] (1) - Checking package finished
+2015-09-24 11:57:15,238 [INFO ] (1) - BackupDatabase started
+2015-09-24 11:57:15,598 [INFO ] (1) - BackupDatabase finished
+2015-09-24 11:57:15,613 [INFO ] (1) - BackUpCodeTree started
+2015-09-24 11:57:15,723 [INFO ] (1) - BackUpCodeTree finished
+2015-09-24 11:57:15,973 [INFO ] (1) - XmlPeek started
+2015-09-24 11:57:15,973 [ERROR] (1) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPeekTask.GetNodeByXPath(String xmlPath, String xPath, XmlNamespaces xmlNamespaces, Int32 nodeIndex) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 34
+   at PackageManager.Tasks.XmlPeekTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 25
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 11:57:16,004 [WARN ] (1) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:57:16,004 [INFO ] (1) - XmlPeek finished
+2015-09-24 11:57:16,020 [INFO ] (1) - XmlPoke started
+2015-09-24 11:57:16,035 [ERROR] (1) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPokeTask.ModifyNodeValueByXPath(String xmlPath, String xPath, String newValue, XmlNamespaces xmlNamespaces, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 28
+   at PackageManager.Tasks.XmlPokeTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 23
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 11:57:16,051 [WARN ] (1) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:57:16,051 [INFO ] (1) - XmlPoke finished
+2015-09-24 11:57:16,067 [INFO ] (1) - Installation module (DB) started
+2015-09-24 11:57:16,082 [INFO ] (1) - DeleteFile started
+2015-09-24 11:57:16,082 [INFO ] (1) - DeleteFile finished
+2015-09-24 11:57:16,098 [INFO ] (1) - CopyingFile started
+2015-09-24 11:57:16,114 [INFO ] (1) - CopyingFile finished
+2015-09-24 11:57:16,129 [INFO ] (1) - Program execution started
+2015-09-24 11:57:16,145 [ERROR] (1) - System.ComponentModel.Win32Exception (0x80004005): The directory name is invalid
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at PackageManager.Tasks.ExecTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\ExecTask.cs:line 40
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 32
+   at PackageManager.Implementations.InstallationModule.ProgramExecution(ModuleInstallation module) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\InstallationModule.cs:line 130
+   at PackageManager.Implementations.InstallationModule.InstallModule(String configPath, IList`1 moduleInstallationTypes) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\InstallationModule.cs:line 46
+   at PackageManager.Implementations.Commands.InstallModuleCommand.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\Commands\InstallModuleCommand.cs:line 17
+   at PackageManager.PackageManagerInstall.StartDownload() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\PackageManagerInstall.cs:line 34
+[START LOG] 
+2015-09-24 11:57:49,725 [INFO ] (9) - Installation package started
+2015-09-24 11:57:49,787 [INFO ] (9) - LoadingInitialData started
+2015-09-24 11:57:49,787 [INFO ] (9) - LoadingInitialData finished
+2015-09-24 11:57:52,475 [INFO ] (9) - CreateDirectories started
+2015-09-24 11:57:52,490 [INFO ] (9) - CreateDirectories finished
+2015-09-24 11:57:52,506 [INFO ] (9) - DownloadFromFtp started
+2015-09-24 11:57:52,537 [INFO ] (9) - DownloadFromFtp finished
+2015-09-24 11:57:52,553 [INFO ] (9) - Decompress Zip started
+2015-09-24 11:57:52,600 [INFO ] (9) - Decompress Zip finished
+2015-09-24 11:57:52,600 [INFO ] (9) - Checking package started
+2015-09-24 11:57:52,631 [INFO ] (9) - Checking package finished
+2015-09-24 11:57:52,647 [INFO ] (9) - BackupDatabase started
+2015-09-24 11:57:53,022 [INFO ] (9) - BackupDatabase finished
+2015-09-24 11:57:53,037 [INFO ] (9) - BackUpCodeTree started
+2015-09-24 11:57:53,131 [INFO ] (9) - BackUpCodeTree finished
+2015-09-24 11:57:53,365 [INFO ] (9) - XmlPeek started
+2015-09-24 11:57:53,428 [ERROR] (9) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPeekTask.GetNodeByXPath(String xmlPath, String xPath, XmlNamespaces xmlNamespaces, Int32 nodeIndex) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 34
+   at PackageManager.Tasks.XmlPeekTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 25
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 11:57:53,444 [WARN ] (9) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:57:53,459 [INFO ] (9) - XmlPeek finished
+2015-09-24 11:57:53,459 [INFO ] (9) - XmlPoke started
+2015-09-24 11:57:53,522 [ERROR] (9) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPokeTask.ModifyNodeValueByXPath(String xmlPath, String xPath, String newValue, XmlNamespaces xmlNamespaces, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 28
+   at PackageManager.Tasks.XmlPokeTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 23
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 11:57:53,537 [WARN ] (9) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:57:53,553 [INFO ] (9) - XmlPoke finished
+2015-09-24 11:57:53,553 [INFO ] (9) - Installation module (DB) started
+2015-09-24 11:57:59,147 [INFO ] (9) - DeleteFile started
+2015-09-24 11:57:59,163 [INFO ] (9) - DeleteFile finished
+2015-09-24 11:57:59,163 [INFO ] (9) - CopyingFile started
+2015-09-24 11:57:59,194 [INFO ] (9) - CopyingFile finished
+2015-09-24 11:57:59,194 [INFO ] (9) - Program execution started
+[START LOG] 
+2015-09-24 11:59:13,963 [INFO ] (8) - Installation package started
+2015-09-24 11:59:14,010 [INFO ] (8) - LoadingInitialData started
+2015-09-24 11:59:14,026 [INFO ] (8) - LoadingInitialData finished
+2015-09-24 11:59:14,057 [INFO ] (8) - CreateDirectories started
+2015-09-24 11:59:14,073 [INFO ] (8) - CreateDirectories finished
+2015-09-24 11:59:14,088 [INFO ] (8) - DownloadFromFtp started
+2015-09-24 11:59:14,120 [INFO ] (8) - DownloadFromFtp finished
+2015-09-24 11:59:14,120 [INFO ] (8) - Decompress Zip started
+2015-09-24 11:59:14,167 [INFO ] (8) - Decompress Zip finished
+2015-09-24 11:59:14,182 [INFO ] (8) - Checking package started
+2015-09-24 11:59:14,198 [INFO ] (8) - Checking package finished
+2015-09-24 11:59:14,213 [INFO ] (8) - BackupDatabase started
+2015-09-24 11:59:15,292 [INFO ] (8) - BackupDatabase finished
+2015-09-24 11:59:15,292 [INFO ] (8) - BackUpCodeTree started
+2015-09-24 11:59:15,385 [INFO ] (8) - BackUpCodeTree finished
+2015-09-24 11:59:15,620 [INFO ] (8) - XmlPeek started
+2015-09-24 11:59:22,764 [ERROR] (8) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPeekTask.GetNodeByXPath(String xmlPath, String xPath, XmlNamespaces xmlNamespaces, Int32 nodeIndex) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 34
+   at PackageManager.Tasks.XmlPeekTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPeekTask.cs:line 25
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 11:59:22,796 [WARN ] (8) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:59:22,811 [INFO ] (8) - XmlPeek finished
+2015-09-24 11:59:22,827 [INFO ] (8) - XmlPoke started
+2015-09-24 11:59:27,749 [ERROR] (8) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 82
+   at PackageManager.Tasks.XmlPokeTask.ModifyNodeValueByXPath(String xmlPath, String xPath, String newValue, XmlNamespaces xmlNamespaces, Boolean preserveWhitespace) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 28
+   at PackageManager.Tasks.XmlPokeTask.ExecuteTask() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\XmlPokeTask.cs:line 23
+   at PackageManager.Tasks.Common.BaseTask.Execute() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Tasks\Common\BaseTask.cs:line 23
+2015-09-24 11:59:27,780 [WARN ] (8) - Could not find file 'c:\Program Files (x86)\Aras\Innovator\test_xml.xml'.
+2015-09-24 11:59:27,796 [INFO ] (8) - XmlPoke finished
+2015-09-24 11:59:27,796 [INFO ] (8) - Installation module (DB) started
+2015-09-24 11:59:27,811 [INFO ] (8) - DeleteFile started
+2015-09-24 11:59:27,827 [INFO ] (8) - DeleteFile finished
+2015-09-24 11:59:27,843 [INFO ] (8) - CopyingFile started
+2015-09-24 11:59:27,858 [INFO ] (8) - CopyingFile finished
+2015-09-24 11:59:27,874 [INFO ] (8) - Program execution started
+2015-09-24 11:59:29,796 [INFO ] (8) - Program execution finished
+2015-09-24 11:59:29,812 [INFO ] (8) - ImportIntoDb started
+2015-09-24 11:59:29,827 [INFO ] (8) - ImportIntoDb finished
+2015-09-24 11:59:29,843 [INFO ] (8) - Installation module (DB) finished
+2015-09-24 11:59:29,843 [INFO ] (8) - BackUpCodeTree started
+2015-09-24 11:59:29,874 [INFO ] (8) - BackUpCodeTree finished
+2015-09-24 11:59:32,624 [INFO ] (8) - RestoreCodeTree started
+2015-09-24 11:59:32,874 [INFO ] (8) - RestoreCodeTree finished
+2015-09-24 11:59:32,890 [INFO ] (8) - Installation package finished

@@ -1,0 +1,11 @@
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Release\NativeBinaries\amd64\git2-e0902fb.dll
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Release\NativeBinaries\amd64\git2-e0902fb.pdb
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Release\NativeBinaries\x86\git2-e0902fb.dll
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Release\NativeBinaries\x86\git2-e0902fb.pdb
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Release\PackageManager.dll
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Release\PackageManager.pdb
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Release\log4net.dll
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\bin\Release\log4net.xml
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\obj\Release\PackageManager.dll
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\obj\Release\PackageManager.pdb
+H:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\obj\Release\PackageManager.csprojResolveAssemblyReference.cache

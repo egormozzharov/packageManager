@@ -1,0 +1,11 @@
+﻿2015-09-16 17:52:19,930 [10] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-16 17:52:19,962 [10] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-16 17:52:19,977 [10] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-16 17:52:19,977 [10] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-16 17:52:19,977 [10] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-16 17:52:19,977 [10] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-16 17:52:20,243 [10] ERROR TestConsolePackageManager.Program - System.Net.WebException: The remote server returned an error: (530) Not logged in.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at PackageManager.Implementations.DownloadPackage.DownloadFromFtp(Uri address, String fileName, String credentialUserName, String credentialPassword) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\DownloadPackage.cs:line 68
+2015-09-16 17:52:20,259 [10] ERROR TestConsolePackageManager.Program - DownloadPackage: The remote server returned an error: (530) Not logged in.

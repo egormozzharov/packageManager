@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="UIPackageManager.Views.PackagePartSelectionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:views="clr-namespace:UIPackageManager.Views"
+             mc:Ignorable="d" 
+            d:DesignHeight="300"
+            d:DesignWidth="300">
+
+	<Grid Margin="0,0,0,0" Background="Lavender">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="50"/>
+			<RowDefinition Height="*" />
+			<RowDefinition Height="70" />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+		</Grid.ColumnDefinitions>
+
+		<TextBlock Grid.Row ="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="PackagePartSelection"></TextBlock>
+
+		<StackPanel Grid.Row="1" Grid.Column="0">
+			<CheckBox Content="Database"  Margin="30, 0, 0, 0" VerticalAlignment="Center" IsChecked="True" Height="30"/>
+			<CheckBox Content="Innovator Server" Margin="30, 0, 0, 0" VerticalAlignment="Center" IsChecked="True" Height="30"/>
+			<CheckBox Content="Vault Server"  Margin="30, 0, 0, 0" VerticalAlignment="Center" IsChecked="True" Height="30"/>
+			<CheckBox Content="Conversion Server"  Margin="30, 0, 0, 0" VerticalAlignment="Center" IsChecked="True" Height="30"/>
+			<CheckBox Content="Select all" Margin="30, 0, 0, 0" VerticalAlignment="Center" IsChecked="True" Height="30" />
+		</StackPanel>
+
+		<views:NavigationView DataContext="{Binding NavigationViewModel}" Grid.Row="2" Grid.Column="0"/>
+	</Grid>
+</UserControl>

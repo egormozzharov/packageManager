@@ -1,0 +1,166 @@
+2015-09-17 15:45:12,021 [ERROR] (10) - System.Net.WebException: The remote server returned an error: (530) Not logged in.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at PackageManager.Implementations.DownloadPackage.DownloadFromFtp(Uri address, String fileName, String credentialUserName, String credentialPassword) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\DownloadPackage.cs:line 68
+2015-09-17 15:45:12,028 [ERROR] (10) - PackageManager.Implementations.Commands.DownloadPackageCommand: The remote server returned an error: (530) Not logged in.
+2015-09-17 15:46:39,847 [ERROR] (10) - System.IO.FileNotFoundException: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+File name: 'D:\PackMan\PackageManager\TehDocName.zip'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode)
+   at System.IO.Compression.ZipFile.OpenRead(String archiveFileName)
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, String extractPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 56
+2015-09-17 15:46:39,881 [ERROR] (10) - System.IO.FileNotFoundException: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+File name: 'D:\PackMan\PackageManager\TehDocName.zip'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode)
+   at System.IO.Compression.ZipFile.OpenRead(String archiveFileName)
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, String extractPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 79
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 49
+   at PackageManager.Implementations.Archiver.DecompressZip(String zipPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\Archiver.cs:line 23
+2015-09-17 15:46:39,890 [ERROR] (10) - PackageManager.Implementations.Commands.DecompressZipCommand: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+2015-09-17 15:47:09,877 [ERROR] (10) - System.IO.FileNotFoundException: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+File name: 'D:\PackMan\PackageManager\TehDocName.zip'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode)
+   at System.IO.Compression.ZipFile.OpenRead(String archiveFileName)
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, String extractPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 56
+2015-09-17 15:47:09,905 [ERROR] (10) - System.IO.FileNotFoundException: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+File name: 'D:\PackMan\PackageManager\TehDocName.zip'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode)
+   at System.IO.Compression.ZipFile.OpenRead(String archiveFileName)
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, String extractPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 79
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 49
+   at PackageManager.Implementations.Archiver.DecompressZip(String zipPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\Archiver.cs:line 23
+2015-09-17 15:47:09,912 [ERROR] (10) - PackageManager.Implementations.Commands.DecompressZipCommand: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+2015-09-17 15:47:33,690 [ERROR] (10) - System.IO.FileNotFoundException: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+File name: 'D:\PackMan\PackageManager\TehDocName.zip'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode)
+   at System.IO.Compression.ZipFile.OpenRead(String archiveFileName)
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, String extractPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 56
+2015-09-17 15:47:33,719 [ERROR] (10) - System.IO.FileNotFoundException: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+File name: 'D:\PackMan\PackageManager\TehDocName.zip'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode)
+   at System.IO.Compression.ZipFile.OpenRead(String archiveFileName)
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, String extractPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 79
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 49
+   at PackageManager.Implementations.Archiver.DecompressZip(String zipPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\Archiver.cs:line 23
+2015-09-17 15:47:35,307 [ERROR] (10) - PackageManager.Implementations.Commands.DecompressZipCommand: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+2015-09-17 15:48:29,466 [ERROR] (9) - System.IO.FileNotFoundException: Could not find file 'D:\PackMan\PackageManager\TehDocName.zip'.
+File name: 'D:\PackMan\PackageManager\TehDocName.zip'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode)
+   at System.IO.Compression.ZipFile.OpenRead(String archiveFileName)
+   at PackageManager.Implementations.FileManager.DecompressZip(String zipPath, String extractPath, Boolean isDeleteAfterDecompress) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\FileManager.cs:line 56
+2015-09-17 15:59:00,144 [ERROR] (1) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 123
+   at PackageManager.Implementations.XmlService.GetNodeByXPath(String xmlPath, String xPath, Int32 nodeIndex) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 93
+   at PackageManager.Implementations.WorkWithXmlConfig.XmlPeek(String configPath, OperationResult result) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\WorkWithXmlConfig.cs:line 83
+2015-09-17 15:59:00,183 [ERROR] (1) - PackageManager.Implementations.Commands.ProcessConfigFileCommand: Could not find file 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'.
+2015-09-17 16:00:17,096 [ERROR] (1) - System.IO.FileNotFoundException: Could not find file 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'.
+File name: 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at PackageManager.Implementations.XmlService.LoadDocument(String xmlPath) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 123
+   at PackageManager.Implementations.XmlService.ModifyNodeValueByXPath(String xmlPath, String xPath, String newValue) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\XmlService.cs:line 104
+   at PackageManager.Implementations.WorkWithXmlConfig.XmlPoke(String configPath, OperationResult result) in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\WorkWithXmlConfig.cs:line 59
+2015-09-17 16:00:17,122 [ERROR] (1) - PackageManager.Implementations.Commands.ProcessConfigFileCommand: Could not find file 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'.
+2015-09-17 20:04:52,707 [ERROR] (10) - LibGit2Sharp.LibGit2SharpException: Invalid path: 'Innovator/'
+   at LibGit2Sharp.Core.Ensure.HandleError(Int32 result)
+   at LibGit2Sharp.Core.Ensure.ZeroResult(Int32 result)
+   at LibGit2Sharp.Core.Proxy.git_index_add_bypath(IndexSafeHandle index, FilePath path)
+   at LibGit2Sharp.Repository.AddToIndex(String relativePath)
+   at LibGit2Sharp.Repository.Stage(IEnumerable`1 paths, StageOptions stageOptions)
+   at LibGit2Sharp.Repository.Stage(String path, StageOptions stageOptions)
+   at LibGit2Sharp.RepositoryExtensions.Stage(IRepository repository, String path)
+   at PackageManager.Implementations.GitWrapper.AddAllFilesToIndex() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\GitWrapper.cs:line 90
+   at PackageManager.Implementations.GitWrapper.CommitChanges() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\GitWrapper.cs:line 59
+   at PackageManager.Implementations.BackupManager.BackUpCodeTree() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\BackupManager.cs:line 30
+2015-09-17 20:04:52,743 [ERROR] (10) - PackageManager.Implementations.Commands.BackUpCodeTreeCommand: Invalid path: 'Innovator/'
+2015-09-17 20:05:34,301 [ERROR] (10) - LibGit2Sharp.LibGit2SharpException: Invalid path: 'Innovator/'
+   at LibGit2Sharp.Core.Ensure.HandleError(Int32 result)
+   at LibGit2Sharp.Core.Ensure.ZeroResult(Int32 result)
+   at LibGit2Sharp.Core.Proxy.git_index_add_bypath(IndexSafeHandle index, FilePath path)
+   at LibGit2Sharp.Repository.AddToIndex(String relativePath)
+   at LibGit2Sharp.Repository.Stage(IEnumerable`1 paths, StageOptions stageOptions)
+   at LibGit2Sharp.Repository.Stage(String path, StageOptions stageOptions)
+   at LibGit2Sharp.RepositoryExtensions.Stage(IRepository repository, String path)
+   at PackageManager.Implementations.GitWrapper.AddAllFilesToIndex() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\GitWrapper.cs:line 90
+   at PackageManager.Implementations.GitWrapper.CommitChanges() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\GitWrapper.cs:line 59
+   at PackageManager.Implementations.BackupManager.BackUpCodeTree() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\BackupManager.cs:line 30
+2015-09-17 20:05:34,317 [ERROR] (10) - PackageManager.Implementations.Commands.BackUpCodeTreeCommand: Invalid path: 'Innovator/'
+2015-09-17 22:02:22,962 [ERROR] (9) - LibGit2Sharp.LibGit2SharpException: Could not remove 'c:/Program Files (x86)/Aras/Innovator/SelfServiceReporting/Resources/tinymce/tinymce-small.ttf': Access is denied.
+
+   at LibGit2Sharp.Core.Ensure.HandleError(Int32 result)
+   at LibGit2Sharp.Core.Ensure.ZeroResult(Int32 result)
+   at LibGit2Sharp.Core.Proxy.git_revert(RepositorySafeHandle repo, ObjectId commit, GitRevertOpts opts)
+   at LibGit2Sharp.Repository.Revert(Commit commit, Signature reverter, RevertOptions options)
+   at LibGit2Sharp.RepositoryExtensions.Revert(IRepository repository, Commit commit, Signature reverter)
+   at PackageManager.Implementations.GitWrapper.RevertLastCommit() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\GitWrapper.cs:line 71
+   at PackageManager.Implementations.BackupManager.RestoreCodeTree() in h:\Projects\Aras_Package_Manager\ArasPackageManager\Package_Manager\Implementations\BackupManager.cs:line 46
+2015-09-17 22:02:23,025 [ERROR] (9) - PackageManager.Implementations.Commands.RestoreCodeTreeCommand: Could not remove 'c:/Program Files (x86)/Aras/Innovator/SelfServiceReporting/Resources/tinymce/tinymce-small.ttf': Access is denied.
+

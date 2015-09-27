@@ -1,0 +1,28 @@
+﻿2015-09-18 16:01:16,310 [9] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-18 16:01:16,341 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-18 16:01:16,341 [9] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-18 16:01:16,372 [9] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-18 16:01:16,372 [9] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-18 16:01:16,372 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-18 16:01:16,700 [9] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-18 16:01:16,716 [9] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-18 16:01:16,763 [9] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-18 16:01:16,763 [9] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-18 16:01:16,810 [9] INFO  TestConsolePackageManager.Program - Checking package finished
+2015-09-18 16:01:16,825 [9] INFO  TestConsolePackageManager.Program - BackupDatabase started
+2015-09-18 16:01:18,501 [9] INFO  TestConsolePackageManager.Program - BackupDatabase finished
+2015-09-18 16:01:18,501 [9] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-18 16:01:18,860 [9] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-18 16:01:18,875 [9] INFO  TestConsolePackageManager.Program - XmlPeek started
+2015-09-18 16:01:19,079 [9] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'.
+2015-09-18 16:01:19,126 [9] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'.
+2015-09-18 16:01:19,126 [9] INFO  TestConsolePackageManager.Program - XmlPeek finished
+2015-09-18 16:01:19,172 [9] INFO  TestConsolePackageManager.Program - XmlPoke started
+2015-09-18 16:01:19,219 [9] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'.
+2015-09-18 16:01:19,251 [9] WARN  TestConsolePackageManager.Program - Could not find file 'c:\Program Files (x86)\Aras\Innovator\Innovator\Server\method_config.xml'.
+2015-09-18 16:01:19,251 [9] INFO  TestConsolePackageManager.Program - XmlPoke finished
+2015-09-18 16:01:19,251 [9] INFO  TestConsolePackageManager.Program - DeleteFile started
+2015-09-18 16:01:19,266 [9] INFO  TestConsolePackageManager.Program - DeleteFile finished
+2015-09-18 16:01:21,695 [9] INFO  TestConsolePackageManager.Program - CopyingFile started
+2015-09-18 16:04:18,528 [9] ERROR TestConsolePackageManager.Program - Source file does not exist or could not be found: D:\PackMan\PackageManager\TehDocName\files\vault\bin\VaultServer.dll
+2015-09-18 16:04:20,424 [9] INFO  TestConsolePackageManager.Program - CopyingFile finished

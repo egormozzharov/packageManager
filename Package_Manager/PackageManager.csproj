@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\LibGit2Sharp.0.21.0.176\build\net40\LibGit2Sharp.props" Condition="Exists('..\..\packages\LibGit2Sharp.0.21.0.176\build\net40\LibGit2Sharp.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C29CE16-40C4-46E1-81D7-FA757F92FCEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PackageManager</RootNamespace>
+    <AssemblyName>PackageManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>..\..\CommonFiles\Aras.All.Rules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ArasDevelopmentKeyPair.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LibGit2Sharp">
+      <HintPath>C:\LibGit2Sharp\LibGit2Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\OperationResultExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Helpers\ValidationValue.cs" />
+    <Compile Include="Implementations\Archiver.cs" />
+    <Compile Include="Implementations\Commands\ArchiverCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Implementations\Commands\BackUpCodeTreeCommand.cs" />
+    <Compile Include="Implementations\Commands\BackupDatabaseCommand.cs" />
+    <Compile Include="Implementations\Commands\CheckStructureCommand.cs" />
+    <Compile Include="Implementations\Commands\CreateDirectoriesCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Implementations\Commands\DownloadPackageCommand.cs" />
+    <Compile Include="Implementations\Commands\InstallModuleCommand.cs" />
+    <Compile Include="Implementations\Commands\RestoreCodeTreeCommand.cs" />
+    <Compile Include="Implementations\DirectoryCreator.cs" />
+    <Compile Include="Implementations\GitWrapper.cs" />
+    <Compile Include="Implementations\InstallationModule.cs" />
+    <Compile Include="Implementations\ConfigurationFileManager.cs" />
+    <Compile Include="Models\DownloadPackageModel.cs" />
+    <Compile Include="Models\Enums.cs" />
+    <Compile Include="Models\InputPropertyPackage.cs" />
+    <Compile Include="Models\PropertyConfigModel.cs" />
+    <Compile Include="Resources\CommonResources.Designer.cs">
+      <DependentUpon>CommonResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Resources\CommonResources.ja-JP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonResources.ja-JP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\Common\ParsingFileSet.cs" />
+    <Compile Include="Implementations\PackageStructure.cs" />
+    <Compile Include="Implementations\XmlService.cs" />
+    <Compile Include="Interfaces\IArchiver.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\IConfigurationFileManager.cs" />
+    <Compile Include="Interfaces\IDirectoryCreator.cs" />
+    <Compile Include="Interfaces\IGitWrapper.cs" />
+    <Compile Include="Interfaces\IInstallationModule.cs" />
+    <Compile Include="Interfaces\IPackageStructure.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Models\OperationResult.cs" />
+    <Compile Include="Models\PackageConfig.cs" />
+    <Compile Include="Models\PackageManagerWorkspace.cs" />
+    <Compile Include="Implementations\ManagersContainer.cs" />
+    <Compile Include="Implementations\BackupManager.cs" />
+    <Compile Include="Implementations\DbService.cs" />
+    <Compile Include="Implementations\DownloadPackage.cs" />
+    <Compile Include="Implementations\FileManager.cs" />
+    <Compile Include="Interfaces\IManagersContainer.cs" />
+    <Compile Include="Interfaces\IDbService.cs" />
+    <Compile Include="Interfaces\IDownloadPackage.cs" />
+    <Compile Include="Interfaces\IBackupManager.cs" />
+    <Compile Include="PackageManagerInstall.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\PackageManagerParameters.cs" />
+    <Compile Include="Tasks\Common\BaseTask.cs" />
+    <Compile Include="Tasks\CopyTask.cs" />
+    <Compile Include="Tasks\DeleteTask.cs" />
+    <Compile Include="Tasks\ExecTask.cs" />
+    <Compile Include="Tasks\ImportTask.cs" />
+    <Compile Include="Tasks\XmlPeekTask.cs" />
+    <Compile Include="Tasks\XmlPokeTask.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XMLSchema\PackageConfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CommonResources.ja-JP.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.ja-JP.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\CommonResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XMLSchema\PackageConfig.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArasDevelopmentKeyPair.snk" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\LibGit2Sharp.0.21.0.176\build\net40\LibGit2Sharp.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\LibGit2Sharp.0.21.0.176\build\net40\LibGit2Sharp.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

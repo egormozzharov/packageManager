@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="package">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="dependencies">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element minOccurs="0" maxOccurs="unbounded" name="or">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element minOccurs="0" maxOccurs="unbounded" name="application">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="name">
+														<xs:complexType>
+															<xs:attribute name="value" type="xs:string" use="required" />
+															<xs:attribute name="dbvar" type="xs:string" use="optional" />
+															<xs:attribute name="path" type="xs:string" use="optional" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element maxOccurs="unbounded" name="version" minOccurs="0">
+														<xs:complexType>
+															<xs:attribute name="value" type="xs:string" use="required" />
+															<xs:attribute name="dbvar" type="xs:string" use="optional" />
+															<xs:attribute name="path" type="xs:string" use="optional" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="condition" type="xs:string" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element minOccurs="0" maxOccurs="unbounded" name="innovator">
+											<xs:complexType>
+												<xs:attribute name="version" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element minOccurs="0" name="innovator">
+								<xs:complexType>
+									<xs:attribute name="version" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element minOccurs="0" name="application">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name">
+											<xs:complexType>
+												<xs:attribute name="value" type="xs:string" use="required" />
+												<xs:attribute name="dbvar" type="xs:string" use="optional" />
+												<xs:attribute name="path" type="xs:string" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element maxOccurs="unbounded" name="version" minOccurs="0">
+											<xs:complexType>
+												<xs:attribute name="value" type="xs:string" use="required" />
+												<xs:attribute name="dbvar" type="xs:string" use="optional" />
+												<xs:attribute name="path" type="xs:string" use="optional" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="condition" type="xs:string" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element minOccurs="0" maxOccurs="unbounded" name="property">
+					<xs:complexType>
+						<xs:attribute name="name" type="xs:string" use="required" />
+						<xs:attribute name="value" type="xs:string" use="required" />
+						<xs:attribute name="type" type="xs:string" use="optional" />
+						<xs:attribute name="label" type="xs:string" use="optional" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="installation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="module">
+								<xs:complexType mixed="true">
+									<xs:sequence minOccurs="0">
+										<xs:element minOccurs="0" maxOccurs="unbounded" name="import">
+											<xs:complexType>
+												<xs:attribute name="dir" type="xs:string" use="required" />
+												<xs:attribute name="failonerror" type="xs:boolean" use="optional" default="true" />
+												<xs:attribute name="backup" type="xs:boolean" use="optional" default="false" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element minOccurs="0" maxOccurs="unbounded" name="exec">
+											<xs:complexType>
+												<xs:attribute name="program" type="xs:string" use="required" />
+												<xs:attribute name="basedir" type="xs:string" use="required" />
+												<xs:attribute name="commandline" type="xs:string" use="required" />
+												<xs:attribute name="workingdir" type="xs:string" use="optional" />
+												<xs:attribute name="timeout" type="xs:int" use="optional" default="0"/>
+												<xs:attribute name="output" type="xs:string" use="required" />
+												<xs:attribute name="failonerror" type="xs:boolean" use="optional" default="true" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element minOccurs="0" maxOccurs="unbounded" name="copy">
+											<xs:complexType>
+												<xs:sequence minOccurs="0">
+													<xs:element name="fileset" minOccurs="0" maxOccurs="1">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element maxOccurs="unbounded" name="include" minOccurs="0">
+																	<xs:complexType>
+																		<xs:attribute name="name" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element maxOccurs="unbounded" name="exclude" minOccurs="0">
+																	<xs:complexType>
+																		<xs:attribute name="name" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="basedir" type="xs:string" use="optional" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="file" type="xs:string" use="optional" />
+												<xs:attribute name="todir" type="xs:string" use="required" />
+												<xs:attribute name="failonerror" type="xs:boolean" use="optional" default="true" />
+												<xs:attribute name="backup" type="xs:boolean" use="optional" default="false" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element minOccurs="0" maxOccurs="unbounded" name="delete">
+											<xs:complexType>
+												<xs:sequence minOccurs="0">
+													<xs:element name="fileset" minOccurs="0" maxOccurs="1">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element maxOccurs="unbounded" name="include" minOccurs="0">
+																	<xs:complexType>
+																		<xs:attribute name="name" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element maxOccurs="unbounded" name="exclude" minOccurs="0">
+																	<xs:complexType>
+																		<xs:attribute name="name" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="basedir" type="xs:string" use="optional" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="file" type="xs:string" use="optional" />
+												<xs:attribute name="failonerror" type="xs:boolean" use="optional" default="true" />
+												<xs:attribute name="backup" type="xs:boolean" use="optional" default="false" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="id" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element minOccurs="0" maxOccurs="unbounded" name="xmlpeek">
+					<xs:complexType>
+						<xs:attribute name="file" type="xs:string" use="required" />
+						<xs:attribute name="xpath" type="xs:string" use="required" />
+						<xs:attribute name="property" type="xs:string" use="required" />
+						<xs:attribute name="nodeindex" type="xs:unsignedByte" use="optional" />
+						<xs:attribute name="failonerror" type="xs:boolean" use="optional" default="true" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element maxOccurs="unbounded" name="xmlpoke">
+					<xs:complexType>
+						<xs:sequence minOccurs="0">
+							<xs:element name="namespaces" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="namespace" minOccurs="0">
+											<xs:complexType>
+												<xs:attribute name="prefix" type="xs:string" use="required" />
+												<xs:attribute name="uri" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="file" type="xs:string" use="required" />
+						<xs:attribute name="xpath" type="xs:string" use="required" />
+						<xs:attribute name="value" type="xs:string" use="required" />
+						<xs:attribute name="preservewhitespace" type="xs:boolean" use="optional" />
+						<xs:attribute name="failonerror" type="xs:boolean" use="required" />
+						<xs:attribute name="backup" type="xs:boolean" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required" />
+			<xs:attribute name="version" type="xs:string" use="required" />
+			<xs:attribute name="type" type="xs:string" use="optional" default="aia"/>
+			<xs:attribute name="owner" type="xs:string" use="optional" />
+			<xs:attribute name="description" type="xs:string" use="optional" />
+			<xs:attribute name="copyright" type="xs:string" use="optional" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

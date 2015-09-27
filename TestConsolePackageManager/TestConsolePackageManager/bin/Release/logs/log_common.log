@@ -1,0 +1,16 @@
+﻿2015-09-17 12:07:04,652 [1] INFO  TestConsolePackageManager.Program - Installation package started
+2015-09-17 12:07:04,702 [1] INFO  TestConsolePackageManager.Program - LoadingInitialData started
+2015-09-17 12:07:04,705 [1] INFO  TestConsolePackageManager.Program - LoadingInitialData finished
+2015-09-17 12:07:04,714 [1] INFO  TestConsolePackageManager.Program - CreateDirectories started
+2015-09-17 12:07:04,715 [1] INFO  TestConsolePackageManager.Program - CreateDirectories finished
+2015-09-17 12:07:04,719 [1] INFO  TestConsolePackageManager.Program - DownloadFromFtp started
+2015-09-17 12:07:04,733 [1] INFO  TestConsolePackageManager.Program - DownloadFromFtp finished
+2015-09-17 12:07:04,736 [1] INFO  TestConsolePackageManager.Program - Decompress Zip started
+2015-09-17 12:07:04,777 [1] INFO  TestConsolePackageManager.Program - Decompress Zip finished
+2015-09-17 12:07:04,779 [1] INFO  TestConsolePackageManager.Program - Checking package started
+2015-09-17 12:07:04,792 [1] INFO  TestConsolePackageManager.Program - Checking package finished
+2015-09-17 12:07:04,800 [1] INFO  TestConsolePackageManager.Program - BackupDatabase started
+2015-09-17 12:07:05,813 [1] INFO  TestConsolePackageManager.Program - BackupDatabase finished
+2015-09-17 12:07:05,816 [1] INFO  TestConsolePackageManager.Program - BackUpCodeTree started
+2015-09-17 12:07:06,927 [1] INFO  TestConsolePackageManager.Program - BackUpCodeTree finished
+2015-09-17 12:07:06,929 [1] INFO  TestConsolePackageManager.Program - Installation package finished
